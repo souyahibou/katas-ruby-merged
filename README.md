@@ -1,4 +1,4 @@
-# Binary Search Tree
+# Ruby: Binary Search Tree
 
 Write a program that inserts numbers and searches in a binary tree.
 
@@ -53,6 +53,20 @@ And if we then added 1, 5, and 7, it would look like this
      / \     / \
     1   3   5   7
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby binary_search_tree_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 Josh Cheek [https://twitter.com/josh_cheek](https://twitter.com/josh_cheek)
@@ -61,3 +75,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
