@@ -1,6 +1,6 @@
-# Roman Numerals
+# Ruby: Roman Numerals
 
-Write a function to convert from normal numbers to Roman Numerals: e.g.
+Write a function to convert from normal numbers to Roman Numerals.
 
 The Romans were a clever bunch. They conquered most of Europe and ruled
 it for hundreds of years. They invented concrete and straight roads and
@@ -42,6 +42,20 @@ In Roman numerals 1990 is MCMXC:
 
 See also: http://www.novaroma.org/via_romana/numbers.html
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby roman_numerals_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 The Roman Numeral Kata [http://codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals](http://codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals)
@@ -50,3 +64,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
