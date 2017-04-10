@@ -82,3 +82,9 @@ The proposed implementation will use the list feature of Redis. Implemented corr
 For that, we recommand to use the following commands:
 - Push: [lpush](https://redis.io/commands/lpush)
 - Pop: [brpop](https://redis.io/commands/brpop)
+
+---
+
+### Example implementation
+Every solution to this kata will be different, like a snowflake, and that's good.
+Once you've finished this kata, you can check out the implementation by @valgayres [here](https://github.com/valgayres/sidepunch), and think about the similarities and differences with your own version.
