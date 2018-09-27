@@ -64,15 +64,27 @@ of the algorithm made `7` swaps.
 
 Write an implementation of bubble sort that does not use any custom classes.
 You'll likely want to use methods and will surely needs arrays and a `while` loop.
+```
+see bubblesort.rb
+```
 
 In addition to writing an implementation following the template below, answer
 the following questions:
 
 * Given the numbers 0 through 5, what would be the worst case scenario for
 bubble sort (aka, what order would necessitate the most swaps)?
+```
+the worst case scenario for bubble sort is [5, 4, 3, 1, 0]
+```
 * How many swaps would that worst case take?
+```
+the worst case take 10 swaps and 25 iterations(while)
+```
 * The example above took 21 iterations to get to a result. Can you tweak the
 algorithm so that it takes the same number of swaps (`7`) but fewer total operations?
+```
+see bubblesort.rb
+```
 
 ### Template
 
