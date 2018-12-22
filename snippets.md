@@ -1,28 +1,31 @@
-#Katas
-##Débutants
-###Pour découvrir le langage
-+ 99 Bottles : Ecrire la chanson (en TDD). =)
-+ Cryptographer : Ecrire le ROT-13.
-+ Accumulate : Réimplémentez léquivalent de Array#map
-+ Bubble Sort : Faire du tri à bulle.
-+ Bob : Pour vous familiariser avec les bases de la syntaxe, en faisant du TDD
-+ Ruby Exercices : Une série d’exercices sur différents aspects du langage Ruby.
-+ Robot Simulator : Un petit robot qui se déplace en fonction des instructions qu’on lui donne.
-+ RNA Transcription : Pour traduire des brins d'ADN
-+ Chiffres romains : Afficher des nombres en chiffres romains
- [https://github.com/ParisRubyWorkshop/ruby-beer-song.git](debutants/ruby-beer-song):__ __
- [https://github.com/ParisRubyWorkshop/cryptographer.git](debutants/cryptographer):__ __
- [https://github.com/fluency-in/ruby-accumulate.git](debutants/ruby-accumulate):__ __
- [https://github.com/ParisRubyWorkshop/bubble_sort.git](debutants/bubble_sort):__kata du bubble_sort__    
- [https://github.com/ParisRubyWorkshop/ruby-bob.git](debutants/ruby-bob):__ __
- [https://github.com/ParisRubyWorkshop/ruby-exercises.git](debutants/ruby-exercises):__ __
- [https://github.com/ParisRubyWorkshop/ruby-robot-simulator.git](debutants/ruby-robot-simulator):__ __
- [https://github.com/fluency-in/ruby-rna-transcription.git](debutants/ruby-rna-transcription):__ __
- [https://github.com/fluency-in/ruby-roman-numerals.git](debutants/ruby-roman-numerals):__ __
- [https://github.com/ParisRubyWorkshop/grandma.git](debutants/grandma):__Challenge de Chris Pane__ ~~archived~~
+# Katas
 
-##Intermédiaires
-###Si vous connaissez déjà les bases et quelques gems:
+## Débutants
+
+### Pour découvrir le langage
+  + 99 Bottles : Ecrire la chanson (en TDD). =)
+  + Cryptographer : Ecrire le ROT-13.
+  + Accumulate : Réimplémentez léquivalent de Array#map
+  + Bubble Sort : Faire du tri à bulle.
+  + Bob : Pour vous familiariser avec les bases de la syntaxe, en faisant du TDD
+  + Ruby Exercices : Une série d’exercices sur différents aspects du langage Ruby.
+  + Robot Simulator : Un petit robot qui se déplace en fonction des instructions qu’on lui donne.
+  + RNA Transcription : Pour traduire des brins d'ADN
+  + Chiffres romains : Afficher des nombres en chiffres romains
+  * [debutants/ruby-beer-song](https://github.com/ParisRubyWorkshop/ruby-beer-song.git):__TODO__
+  * [debutants/cryptographer](https://github.com/ParisRubyWorkshop/cryptographer.git):__Write a program to encrypt__
+  * [debutants/ruby-accumulate](https://github.com/fluency-in/ruby-accumulate.git):__TODO__
+  * [debutants/bubble_sort](https://github.com/ParisRubyWorkshop/bubble_sort.git):__kata du bubble_sort__    
+  * [debutants/ruby-bob](https://github.com/ParisRubyWorkshop/ruby-bob.git):__TODO__
+  * [debutants/ruby-exercises](https://github.com/ParisRubyWorkshop/ruby-exercises.git):__TODO__
+  * [debutants/ruby-robot-simulator](https://github.com/ParisRubyWorkshop/ruby-robot-simulator.git):__TODO__
+  * [debutants/ruby-rna-transcription](https://github.com/fluency-in/ruby-rna-transcription.git):__TODO__
+  * [debutants/ruby-roman-numerals](https://github.com/fluency-in/ruby-roman-numerals.git):__TODO__
+  * [debutants/grandma](https://github.com/ParisRubyWorkshop/grandma.git):__Challenge de Chris Pane__ ~~archived~~
+
+## Intermédiaires
+
+### Si vous connaissez déjà les bases et quelques gems:
  + Sinatra API : Une petite api json avec Sinatra, similaire à File to Api
  + Guilded Rose : Oserez vous améliorer l'algorithme de Leeroy?
  + Du fichier à l’api : Faites une api à partir d’un fichier json.
@@ -33,35 +36,36 @@
  + Sidepunch : Comprenez les background jobs en implémentant un clone de Sidekiq
  + Flashcards : Dans ce projet, vous écrirez un programme flashcard qui sera utilisé via la ligne de commande. Un utilisateur pourra voir les questions, deviner et voir un score final à la fin du tour.
  + Battleship : Utiliser Ruby pour implementer le jeu classique Bataille navale!
- [https://github.com/ParisRubyWorkshop/sinatra-api.git](intermediaires/sinatra-api):__ __
- [https://github.com/williampollet/ruby_guilded_rose.git](intermediaires/ruby_guilded_rose):__ __   
- [https://github.com/ParisRubyWorkshop/file-to-api-kata.git](intermediaires/file-to-api-kata):__A kata to build an http api from a JSON file__
- [https://github.com/livementor/katas.git](intermediaires/katas):__ __
- [https://github.com/fluency-in/ruby-binary-search-tree.git](intermediaires/ruby-binary-search-tree):__ __
- [https://github.com/ParisRubyWorkshop/action-cable-example.git](intermediaires/action-cable-example):__ __
- [https://github.com/ParisRubyWorkshop/ruby-custom-set.git](intermediaires/ruby-custom-set):__ __
- [https://github.com/ParisRubyWorkshop/sidepunch.git](intermediaires/sidepunch):__ __
- [https://github.com/ParisRubyWorkshop/flashcards.git](intermediaires/flashcards):__ __
- [https://github.com/ParisRubyWorkshop/Battleship.git](intermediaires/Battleship):__ __
+ * [intermediaires/sinatra-api](https://github.com/ParisRubyWorkshop/sinatra-api.git):__TODO__
+ * [intermediaires/ruby_guilded_rose](https://github.com/williampollet/ruby_guilded_rose.git):__TODO__   
+ * [intermediaires/file-to-api-kata](https://github.com/ParisRubyWorkshop/file-to-api-kata.git):__A kata to build an http api from a JSON file__
+ * [intermediaires/katas](https://github.com/livementor/katas.git):__TODO__
+ * [intermediaires/ruby-binary-search-tree](https://github.com/fluency-in/ruby-binary-search-tree.git):__TODO__
+ * [intermediaires/action-cable-example](https://github.com/ParisRubyWorkshop/action-cable-example.git):__TODO__
+ * [intermediaires/ruby-custom-set](https://github.com/ParisRubyWorkshop/ruby-custom-set.git):__TODO__
+ * [intermediaires/sidepunch](https://github.com/ParisRubyWorkshop/sidepunch.git):__Reimplementing sidekiq to better understand how background jobs work__
+ * [intermediaires/flashcards](https://github.com/ParisRubyWorkshop/flashcards.git):__TODO__
+ * [intermediaires/Battleship](https://github.com/ParisRubyWorkshop/Battleship.git):__TODO__
 
 
-##Experts
-###Si vous avez déjà travaillé sur un projet Ruby/Rails en production:
+## Experts
+
+### Si vous avez déjà travaillé sur un projet Ruby/Rails en production:
  Spec This Not That : Quelles specs faire tourner sur une grosse suite de tests ?
- [https://github.com/ParisRubyWorkshop/spec-this-not-that-kata.git](experts/spec-this-not-that-kata):__ __
+ * [experts/spec-this-not-that-kata](https://github.com/ParisRubyWorkshop/spec-this-not-that-kata.git):__TODO__
+    *A kata to write an Rspec version of Test This Not That https://github.com/Genki-S/ttnt*
+## Others
+ * [others/scrabble](https://github.com/ParisRubyWorkshop/scrabble.git):__Scrabble game on ruby__   
+ * [others/robodoku](https://github.com/ParisRubyWorkshop/robodoku.git):__Un Sodoku à la sauce ruby__  
+ * [others/goober](https://github.com/ParisRubyWorkshop/goober.git):__projet goober__   
+ * [others/collection](https://github.com/ParisRubyWorkshop/collection.git):__comprendre les collections en prog__
 
-##Others
- [https://github.com/ParisRubyWorkshop/scrabble.git](others/scrabble):__Scrabble game on ruby__   
- [https://github.com/ParisRubyWorkshop/robodoku.git](others/robodoku):__Un Sodoku à la sauce ruby__  
- [https://github.com/ParisRubyWorkshop/goober.git](others/goober):__projet goober__   
- [https://github.com/ParisRubyWorkshop/collection.git](others/collection):__comprendre les collections en prog__
 
-
-##Katas
+## Katas
 Ailleurs sur les internets:
-codekata.com
-codewars.com
-codingdojo là où le format Kata est né
+- codekata.com
+- codewars.com
+- codingdojo là où le format Kata est né
 
 
 
@@ -163,7 +167,7 @@ git commit -m "Merge all sub_repositories as ours subdirectories"
 git remote add origin https://github.com/souyahibou/katas-ruby-merged.git -->
 
 ## Ways to join all repositories
-1. [https://dev.to/quangle/git---dplacer-des-dossiers-dun-repo--un-autre-sans-perdre-lhistorique-3kc4](Git - Déplacer des dossiers d'un repo à un autre sans perdre l'historique)
+1. [Git - Déplacer des dossiers d'un repo à un autre sans perdre l'historique](https://dev.to/quangle/git---dplacer-des-dossiers-dun-repo--un-autre-sans-perdre-lhistorique-3kc4)
 Créez une connection remote de repo_B(master) vers repo_A(sub_repo) (où sub_repo sera une branche de master):
   ```bash
   git remote add remote_name <chemin/local/vers/sub_repo>
