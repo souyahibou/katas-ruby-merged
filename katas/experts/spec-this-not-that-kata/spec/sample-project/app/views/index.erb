@@ -1,0 +1,13 @@
+<h1>Blog</h1>
+
+<ul>
+<% articles.each do |article| %>
+  <li>
+    <a href="/articles/<%= article %>"><%= article %></a>
+  </li>
+<% end %>
+</ul>
+
+<p>
+  <a href="/articles/new">New article</a>
+</p>
