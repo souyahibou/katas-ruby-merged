@@ -66,4 +66,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 [ruby]: http://exercism.io/languages/ruby
 
 
+## Results
 
+- [x] Code Implemented
+- [x] All Tests Passed Successfully
+
+### How To Run
+
+- clone this [repo](./)
+- go to folder `cd ruby-roman-numerals`
+- run the tests `ruby roman_numerals_test.rb`
+- enjoy
