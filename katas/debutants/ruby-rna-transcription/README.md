@@ -42,4 +42,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 [ruby]: http://exercism.io/languages/ruby
 
 
+## Results
 
+- [x] Code Implemented
+- [x] All tests passed successfully
+
+### how to run
+
+- git clone [this repo](./)
+- cd ruby-rna-transcription
+- run `ruby rna_transcription_test.rb`
+- enjoy
