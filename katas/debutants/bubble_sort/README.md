@@ -107,3 +107,17 @@ Implement bubble sort using one or more classes and many tests. Remember to spir
 The version of bubble sort described above is actually a slightly simplified version of the algorithm which uses a "short-circuiting" approach to making successive iterations. As soon as a number is swapped, go back to the beginning of the list and try again. According to the "real" algorithm, every pass should actually iterate completely through the list, and then decide whether another pass is needed.
 
 See if you can write another, slightly modified, version of the algorithm which follows this pattern. You'll need to add some code to keep track during each pass of whether a swap has been made _any time during that pass_. The [wikipedia entry on bubble sort](http://en.wikipedia.org/wiki/Bubble_sort) has some useful visualizations of the process which you can refer to to aid your understanding.
+
+## Results
+
+- [x] Code Implemented
+- [x] Tests implemented
+- [x] Bonus Code Implemented (smart version)
+
+### how to run
+
+- git clone [this repo](./)
+- cd bubble_sort
+- run `ruby bubblesort.rb`
+- enjoy
+
