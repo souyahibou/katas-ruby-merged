@@ -50,5 +50,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
 
+## Results
 
+- [x] Code Implemented
+- [x] All Tests Passed Successfully
 
+### How to run code
+
+- clone this [repo](./)
+- cd ruby-robot-simulator
+- run test `$ ruby robot_simulator_test.rb`
+- enjoy
