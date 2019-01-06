@@ -48,5 +48,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
 
+## Results
 
+- [x] Code Implemented
+- [x] All tests passed successfully
 
+### how to run
+
+- git clone [this repo](./)
+- cd ruby-accumulate
+- run `ruby accumulate_test.rb`
+- enjoy
