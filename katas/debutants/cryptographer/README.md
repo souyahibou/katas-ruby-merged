@@ -49,11 +49,11 @@ If you're comfortable with creating classes, start with this:
 ```ruby
 
 class EncryptionEngine
-  
+
   def encrypt(string)
     # Your code here
   end
-  
+
   def decrypt(string)
     # Your code here
   end
@@ -96,3 +96,20 @@ when encrypting or decrypting. So a user could, for example, choose to use ROT-6
 The next level up would be to create a shuffled cipher (the pattern used for encrypting/decrypting).
 Create your own
 cipher which maps each letter to an arbitrary other letter (like `a` mapping to `x` and `b` mapping to `j`). And create a reversed version for decrypting.
+
+
+## Results
+
+- [x] Implement with Non-Object Based instructions
+- [X] Implement with Object Based instructions
+- [x] Implement tests
+- [x] Implement flexible Rotation Extensions
+- [x] Implement shuffled cipher Extensions
+- [x] Implement tests Extensions
+
+### how to run
+
+- git clone [this repo](./)
+- cd cryptographer
+- run `ruby decrypt.rb`
+- enjoy
