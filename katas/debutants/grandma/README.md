@@ -52,3 +52,16 @@ In your code you'll definitely need to use `if` and likely an `elsif` and `else`
 Whenever you're ready to exit the program, set `ready_to_quit` to `true`.
 
 Also remember that `gets` is the "inverse" method of `puts` -- while `puts` outputs information to the terminal, `gets` captures information from the user by presenting a command prompt and allowing them to type input.
+
+## Results
+
+- [X] Implement more than expected
+- [x] Add tests
+
+### How to run
+
+- git clone [this repo](./)
+- cd grandma
+- run test:    `$ ruby bubblesort.rb`
+- run program: `$ ruby -r "./grandma.rb" -e "Program.perform"`
+- enjoy
