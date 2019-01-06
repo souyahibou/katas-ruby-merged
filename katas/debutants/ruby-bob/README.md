@@ -53,4 +53,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 [ruby]: http://exercism.io/languages/ruby
 
 
+## Results
 
+- [x] Code Implemented
+- [x] All tests passed successfully
+
+### how to run
+
+- git clone [this repo](./)
+- cd ruby-bob
+- run `ruby bob_test.rb`
+- enjoy
