@@ -60,3 +60,107 @@ function submitNewMessage(){
 
 
 Then, [follow the steps](https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable#step-1-establish-the-socket-connection-server-side) from the original article.
+
+## Results
+
+> note: app-name = action-cable-example.herokuapp
+
+### Actions completed
+
+- [x] Delete bd/migrate/...change column_name_in_users.rb
+- [x] Check .ruby-version: use newest version than 2.3.0
+- [x] Exec `$ bundle install || bundle update`
+- [x] Exec `$ rails db:create && rails db:migrate`
+
+* Step Establish the Socket Connection: Client-Side:
+
+  - [x] add  `mount ActionCable.server => '/cable` inner config/routes.rb
+  - [x] add  `config.action_cable.url = "ws://localhost:3000/cable"` inner config/development.rb
+<details><summary>In Heroku</summary>
+  <p>
+  - [x] add  `config.web_socket_server_url = "wss://app-name/cable"` inner config/production.rb
+  - [x] add  `config.action_cable.allowed_request_origins = ['https://app-name.com', 'http://app-name.com']` inner prod.rb:
+  - [x] Update   URL Action Cable Redis(by Redis To Go) configuration inner config/cable.yml
+    1. retrieve Redis To Go UR
+    ``` bash
+      $ heroku create action-cable-example-app
+      $ heroku addons:add redistogo
+      $ heroku config --app action-cable-example | grep REDISTOGO_URL
+    ```
+    2. update url inner config/cable.yml
+    ```yml
+    production:
+      adapter: redis
+      url: redis://redistogo:righturlkeygetonthefirststep.redistogo.com:9247/
+    ```
+  </p>
+</details>
+  - [x] add `<%= action_cable_meta_tag %>` inner views/layouts/application.html.erb
+  - [x] Create(consumer) .js file inner app/assets/javascripts/channel if not already exits: like following:
+
+    ```javascript
+      // app/assets/javascripts/channels/chatrooms.js
+
+      //= require cable
+      //= require_self
+      //= require_tree .
+
+      this.App = {};
+      App.cable = ActionCable.createConsumer();  
+    ```
+
+* Step Building the Channel
+  - [x] Create(new channel) ...\_channel.rb file inner app/channels/: like following:
+
+    ```ruby
+      # app/channels/messages_channel.rb
+      class MessagesChannel < ApplicationCable::Channel
+        def subscribed
+          stream_from 'messages'
+        end
+      end  
+    ```
+  - [x] Add (Broadcast to the Channel) `ActionCable.server.broadcast 'channel'(, attr: val)*; head: ok` on implted cntrlr: like following:
+
+    ```ruby
+      #  app/controllers/messages_controller.rb
+      class MessagesController < ApplicationController
+
+        def create
+          message = Message.new(message_params)
+          message.user = current_user
+          if message.save
+            ActionCable.server.broadcast 'messages', message: message.content, user: message.user.name  #added
+            head :ok   #added
+          else
+            redirect_to chatroom_path(message.chatroom)
+          end
+        end
+
+        ...
+      end
+  ```
+  - [x] Create(subscriber) .js file inner app/assets/javascripts/channels/: like following:
+
+    ```javascript
+      // app/assets/javascripts/channels/messages.js
+      App.messages = App.cable.subscriptions.create('MessagesChannel', {
+        received: function(data) {
+          $("#messages").removeClass('hidden')
+          return $('#messages').append(this.renderMessage(data));
+        },
+
+        renderMessage: function(data) {
+          return "<p> <b>" + data.user + ": </b>" + data.message + "</p>";
+        }
+      });
+    ```
+
+### How To Run
+
+- clone this [repo](./)
+- go to folder `cd action-cable-example`
+- install gems `bundle install`
+- migrate DB `rails db:create && rails db:migrate`
+- run app locally `rails s`
+- enjoy

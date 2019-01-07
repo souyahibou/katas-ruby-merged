@@ -35,8 +35,10 @@ Rails.application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
 
   # Action Cable endpoint configuration
-  # config.action_cable.url = 'wss://example.com/cable'
-  # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
+  config.action_cable.url = 'wss://example.com/cable'
+  config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
+  config.web_socket_server_url = "wss://app-name.herokuapp.com/cable"                                               #added
+  config.action_cable.allowed_request_origins = ['https://app-name.herokuapp.com', 'http://app-name.herokuapp.com'] #added
 
   # Don't mount Action Cable in the main server process.
   # config.action_cable.mount_path = nil
@@ -85,4 +87,5 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
 end
