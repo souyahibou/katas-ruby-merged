@@ -1,0 +1,10 @@
+<div class="container">
+	<h1   id="title_tag"> <%= @movies[:title.to_s] %> </h1>
+	<img  id="photo_tag" src =<%= @movies[:photo.to_s] %> height="800" width="auto">
+	<p    id="post_tag" > <%= @movies[:year.to_s] %> </p>
+	<span id="rate_tag" > <%= '<span class="glyphicon glyphicon-star"></span>' * @movies[:director_id.to_s] %>  </span>
+	<ul   id="comments" >
+            <li> <%=  @directors.detect {|dir| dir["id"] == @movies[:director_id.to_s] }[:id.to_s]  %> </li>
+            <li> <%=  @directors.detect {|dir| dir["id"] == @movies[:director_id.to_s] }[:name.to_s] %> </li>
+        </ul>
+</div>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movies App</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/movies">index page</a>
+        </div>
+
+        <div id="navbar">
+           <ul class="nav navbar-nav pull-right">
+              <li><a href="/movies/1">Post 1</a></li>
+              <li><a href="/movies/2">Post 2</a></li>
+              <li><a href="/movies/3">Post 3</a></li>
+              <li><a href="/movies/4">Post 4</a></li>
+              <li><a href="/movies/5">Post 5</a></li>
+              <li><a href="/movies/6">Post 6</a></li>
+           </ul>
+        </div>
+      </div>
+    </nav>
+    <%= yield %>
+  </body>
+</html>

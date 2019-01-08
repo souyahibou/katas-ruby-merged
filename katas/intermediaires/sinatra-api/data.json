@@ -4,37 +4,46 @@
       "id":1,
       "title":"The Gold Rush",
       "year":1925,
-      "director_id":1
+      "director_id":1,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gold_rush_poster.jpg/1200px-Gold_rush_poster.jpg",
+      "photo2": "https://boredanddangerousblog.files.wordpress.com/2015/05/gold-rush.jpg"
     },
     {
       "id":2,
       "title":"City Lights",
       "year":1931,
-      "director_id":1
+      "director_id":1,
+      "photo":"https://i.etsystatic.com/16952472/r/il/95f36c/1498875622/il_570xN.1498875622_k0e9.jpg",
+      "photo2":"https://posteritati.com/posters/000/000/054/678/city-lights-md-web.jpg",
+      "photo3":"https://i.pinimg.com/originals/ef/20/b5/ef20b5fa7310da836af9354583551d5b.jpg"
     },
     {
       "id":3,
       "title":"The General",
       "year":1926,
-      "director_id":3
+      "director_id":3,
+      "photo": "https://c8.alamy.com/comp/DCJA0H/the-general-buster-keaton-productions-1927-movie-poster-DCJA0H.jpg"
     },
     {
       "id":4,
       "title":"Modern Times",
       "year":1936,
-      "director_id":1
+      "director_id":1,
+      "photo": "https://i.pinimg.com/originals/07/d0/a0/07d0a0372dd6ae4cc35f3ac0ac4f262d.jpg"
     },
     {
       "id":5,
       "title":"Vertigo",
       "year":1958,
-      "director_id":2
+      "director_id":2,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Vertigomovie_restoration.jpg"
     },
     {
       "id":6,
       "title":"Psycho",
       "year":1960,
-      "director_id":2
+      "director_id":2,
+      "photo": "https://cdnb.artstation.com/p/assets/images/images/010/832/119/large/daniel-simmonds-phyco-newsmall.jpg?1526464631"
     }
   ],
   "directors":[

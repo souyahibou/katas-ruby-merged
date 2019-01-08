@@ -13,3 +13,19 @@ You can start the server with `bundle exec rackup`.
 
 Have fun!
 
+## Results
+
+- [x] Implementing main sinatra file api.rb
+- [x] Implementing template views[article.erb, index.erb, layout.erb]
+- [x] Add bootstrap theme and dynamic javascript interactions[/public]
+- [x] Adds photos fields in database inner data.json
+- [x] Original and Implemented Tests Passed Succesfully
+
+### How to run app
+
+- Clone this [repo](./)
+- Go in folder `cd sinatra-api`
+- Run tests `rspec`
+- Install gems `bundle`
+- Run app locally`rackup`
+- Enjoy

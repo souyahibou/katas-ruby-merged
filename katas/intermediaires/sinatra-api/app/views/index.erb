@@ -1,0 +1,54 @@
+<% @data = File.read("data.json") %>
+<% @data_hash = JSON.parse(@data) %>
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Listing Movies</h1>
+        <p> Index table of all movies, click on one of these movies to see associated director </p>
+    </div>
+</div>
+
+<table class="table-striped" style="width:50%; text-align: left" align="center">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>year</th>
+      <th>director_id</th>
+      <th>director_name</th>
+      <th colspan="2">See Post</th>
+    </tr>
+  </thead>
+
+  <tbody >
+    <% @data_hash["movies"].each.with_index(0) do |movie,idx| %>
+      <tr>
+        <td><%= movie[:id.to_s] %></td>
+        <td><%= movie[:title.to_s] %></td>
+        <td><%= movie[:year.to_s] %></td>
+        <td><%= movie[:director_id.to_s] %></td>
+        <td><%= @data_hash["directors"][movie[:director_id.to_s]-1][:name.to_s] %></td>
+        <td> <a href="#<%= idx + 1%>" class="btn btn-primary btn-lg" onclick="post_displaying('<%= @data_hash["movies"][idx][:title.to_s] %>', '<%=@data_hash["movies"][idx][:year.to_s] %>', '<%= @data_hash["movies"][idx][:director_id.to_s] %>', '<%= @data_hash["movies"][idx][:photo.to_s] %>', '<%= @data_hash["directors"][@data_hash["movies"][idx][:director_id.to_s]-1].map{|key,val| "#{key}: #{val}"}.join("|") %>');">Show Post</a> </td>
+        <td> <img src=<%= movie[:photo.to_s] %> alt="sinatra posts test"> </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br>
+
+
+
+
+
+<div class="container">
+	<h1   id="title_tag"> </h1>
+	<img  id="photo_tag" height="600" width="auto">
+	<p    id="post_tag" > </p>
+	<span id="rate_tag" > </span>
+	<ul   id="comments" > </ul>
+</div>
+
+
+
+<script src="main.js"></script>
