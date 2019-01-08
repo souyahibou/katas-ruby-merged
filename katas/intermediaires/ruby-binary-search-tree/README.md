@@ -77,4 +77,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 [ruby]: http://exercism.io/languages/ruby
 
 
+## Results
 
+- [x] Code Implemented
+- [x] All tests passed successfully
+
+### how to run
+
+- git clone [this repo](./)
+- cd ruby-binary-search-search
+- run `binary_search_tree_test.rb`
+- enjoy
