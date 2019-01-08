@@ -30,3 +30,14 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 
 
+## Results
+
+- [x] Code Implemented
+- [x] All tests passed successfully
+
+### how to run
+
+- git clone [this repo](./)
+- cd ruby-custom-set
+- run `ruby custom_set_test.rb`
+- enjoy
