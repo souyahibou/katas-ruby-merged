@@ -3,62 +3,67 @@
 ## Débutants
 
 ### Pour découvrir le langage
-  + 99 Bottles : Ecrire la chanson (en TDD). =)
-  + Cryptographer : Ecrire le ROT-13.
-  + Accumulate : Réimplémentez léquivalent de Array#map
-  + Bubble Sort : Faire du tri à bulle.
-  + Bob : Pour vous familiariser avec les bases de la syntaxe, en faisant du TDD
-  + Ruby Exercices : Une série d’exercices sur différents aspects du langage Ruby.
-  + Robot Simulator : Un petit robot qui se déplace en fonction des instructions qu’on lui donne.
-  + RNA Transcription : Pour traduire des brins d'ADN
-  + Chiffres romains : Afficher des nombres en chiffres romains
-  * [debutants/ruby-beer-song](https://github.com/ParisRubyWorkshop/ruby-beer-song.git):__TODO__
-  * [debutants/cryptographer](https://github.com/ParisRubyWorkshop/cryptographer.git):__Write a program to encrypt__
-  * [debutants/ruby-accumulate](https://github.com/fluency-in/ruby-accumulate.git):__TODO__
-  * [debutants/bubble_sort](https://github.com/ParisRubyWorkshop/bubble_sort.git):__kata du bubble_sort__    
-  * [debutants/ruby-bob](https://github.com/ParisRubyWorkshop/ruby-bob.git):__TODO__
-  * [debutants/ruby-exercises](https://github.com/ParisRubyWorkshop/ruby-exercises.git):__TODO__
-  * [debutants/ruby-robot-simulator](https://github.com/ParisRubyWorkshop/ruby-robot-simulator.git):__TODO__
-  * [debutants/ruby-rna-transcription](https://github.com/fluency-in/ruby-rna-transcription.git):__TODO__
-  * [debutants/ruby-roman-numerals](https://github.com/fluency-in/ruby-roman-numerals.git):__TODO__
-  * [debutants/grandma](https://github.com/ParisRubyWorkshop/grandma.git):__Challenge de Chris Pane__ ~~archived~~
+  + [x] [99 Bottles][beer-song] : Ecrire la chanson (en TDD). =) [See contrib](./katas/debutants/ruby-beer-song):__Done__
+  + [x] [Cryptographer][cryptographer] : Ecrire le ROT-13. [See contrib](./katas/debutants/cryptographer):_Write a program to encrypt_  __Done__
+  + [x] [Accumulate ][accumulate]: Réimplémentez léquivalent de Array#map [See contrib](./katas/debutants/ruby-accumulate):__Done__
+  + [x] [Bubble Sort][bubble_sort] : Faire du tri à bulle. [See contrib](./katas/debutants/bubble_sort): _kata du bubble_sort_  __Done__
+  + [x] [Bob][bob] : Pour vous familiariser avec les bases de la syntaxe, en faisant du TDD [See contrib](./katas/debutants/ruby-bob):__Done__
+  + [x] [Ruby Exercices][exercises] : Une série d’exercices sur différents aspects du langage Ruby. [See contrib](./katas/debutants/ruby-exercises):__TODO__
+  + [x] [Robot Simulator][robot-simulator] : Un petit robot qui se déplace en fonction des instructions données. [See contrib](./katas/debutants/ruby-robot-simulator):__Done__
+  + [x] [RNA Transcription][rna-transcription] : Pour traduire des brins d'ADN [See contrib](./katas/debutants/ruby-rna-transcription):__Done__
+  + [x] [Chiffres romains][roman-numerals] : Afficher des nombres en chiffres romains [See contrib](./katas/debutants/ruby-roman-numerals):__Done__
+  * [x] [Grandma][grandma]:[See contrib](./katas/debutants/grandma):_Challenge de Chris Pane_ ~~archived~~ __Done__
+
+
+[beer-song]: https://github.com/ParisRubyWorkshop/ruby-beer-song.git
+[cryptographer]: https://github.com/ParisRubyWorkshop/cryptographer.git
+[accumulate]: https://github.com/fluency-in/ruby-accumulate.git
+[bubble_sort]: https://github.com/ParisRubyWorkshop/bubble_sort.git
+[bob]: https://github.com/ParisRubyWorkshop/ruby-bob.git
+[exercises]: https://github.com/ParisRubyWorkshop/ruby-exercises.git
+[robot-simulator]: https://github.com/ParisRubyWorkshop/ruby-robot-simulator.git
+[rna-transcription]: https://github.com/fluency-in/ruby-rna-transcription.git
+[roman-numerals]: https://github.com/fluency-in/ruby-roman-numerals.git
+[grandma]: https://github.com/ParisRubyWorkshop/grandma.git
+
 
 ## Intermédiaires
 
 ### Si vous connaissez déjà les bases et quelques gems:
- + Sinatra API : Une petite api json avec Sinatra, similaire à File to Api
- + Guilded Rose : Oserez vous améliorer l'algorithme de Leeroy?
- + Du fichier à l’api : Faites une api à partir d’un fichier json.
- + FileDB : Faites une base de données à partir d’un fichier json. Kata réalisé par LiveMentor :D
- + Binary Tree : Insérez et cherchez dans un arbre binaire, une structure de donnée très utilisée à bas niveau.
- + ActionCableExample : Fabriquez un chat en temps réel avec Action Cable
- + CustomSet : Réimplémentez la classe Set.
- + Sidepunch : Comprenez les background jobs en implémentant un clone de Sidekiq
- + Flashcards : Dans ce projet, vous écrirez un programme flashcard qui sera utilisé via la ligne de commande. Un utilisateur pourra voir les questions, deviner et voir un score final à la fin du tour.
- + Battleship : Utiliser Ruby pour implementer le jeu classique Bataille navale!
- * [intermediaires/sinatra-api](https://github.com/ParisRubyWorkshop/sinatra-api.git):__TODO__
- * [intermediaires/ruby_guilded_rose](https://github.com/williampollet/ruby_guilded_rose.git):__TODO__   
- * [intermediaires/file-to-api-kata](https://github.com/ParisRubyWorkshop/file-to-api-kata.git):__A kata to build an http api from a JSON file__
- * [intermediaires/katas](https://github.com/livementor/katas.git):__TODO__
- * [intermediaires/ruby-binary-search-tree](https://github.com/fluency-in/ruby-binary-search-tree.git):__TODO__
- * [intermediaires/action-cable-example](https://github.com/ParisRubyWorkshop/action-cable-example.git):__TODO__
- * [intermediaires/ruby-custom-set](https://github.com/ParisRubyWorkshop/ruby-custom-set.git):__TODO__
- * [intermediaires/sidepunch](https://github.com/ParisRubyWorkshop/sidepunch.git):__Reimplementing sidekiq to better understand how background jobs work__
- * [intermediaires/flashcards](https://github.com/ParisRubyWorkshop/flashcards.git):__TODO__
- * [intermediaires/Battleship](https://github.com/ParisRubyWorkshop/Battleship.git):__TODO__
+ + [x] [Sinatra API][sinatra-api] : Une petite api json avec Sinatra, similaire à File to Api[See contrib](./katas/intermediaires/sinatra-api) :__Done__
+ + [ ] [Guilded Rose][guilded_rose] : Oserez vous améliorer l'algorithme de Leeroy?[See contrib](./katas/intermediaires/ruby_guilded_rose):__TODO__   
+ + [ ] [Du fichier à l’api][file-to-api] : Faites une api à partir d’un fichier json.[See contrib](./katas/intermediaires/file-to-api-kata):__A kata to build an http api from a JSON file__
+ + [ ] [FileDB][katas] : Faites une base de données à partir d’un fichier json. Kata réalisé par LiveMentor :D[See contrib](./katas/intermediaires/katas):__TODO__
+ + [x] [Binary Tree][binary-search-tree] : Insérez et cherchez dans un arbre binaire, une structure de donnée très utilisée à bas niveau.[See contrib](./katas/intermediaires/ruby-binary-search-tree):__Done__
+ + [x] [ActionCableExample][ction-cable] : Fabriquez un chat en temps réel avec Action Cable[See contrib](./katas/intermediaires/action-cable-example):__Done__
+ + [x] [CustomSet][custom-set] : Réimplémentez la classe Set.[See contrib](./katas/intermediaires/ruby-custom-set):__Done__
+ + [ ] [Sidepunch][sidepunch] : Comprenez les background jobs en implémentant un clone de Sidekiq[See contrib](./katas/intermediaires/sidepunch):__Reimplementing sidekiq to better understand how background jobs work__
+ + [ ] [Flashcards][flashcards] : Dans ce projet, vous écrirez un programme flashcard qui sera utilisé via la ligne de commande. Un utilisateur pourra voir les questions, deviner et voir un score final à la fin du tour.[See contrib](./katas/intermediaires/flashcards):__TODO__
+ + [ ] [Battleship][Battleship] : Utiliser Ruby pour implementer le jeu classique Bataille navale![See contrib](./katas/intermediaires/Battleship):__TODO__
 
+ [sinatra-api]: https://github.com/ParisRubyWorkshop/sinatra-api.git
+ [guilded_rose]: https://github.com/williampollet/ruby_guilded_rose.git
+ [file-to-api]: https://github.com/ParisRubyWorkshop/file-to-api-kata.git
+ [katas]: https://github.com/livementor/katas.git
+ [binary-search-tree]: https://github.com/fluency-in/ruby-binary-search-tree.git
+ [ction-cable]: https://github.com/ParisRubyWorkshop/action-cable-example.git
+ [custom-set]: https://github.com/ParisRubyWorkshop/ruby-custom-set.git
+ [sidepunch]: https://github.com/ParisRubyWorkshop/sidepunch.git
+ [flashcards]: https://github.com/ParisRubyWorkshop/flashcards.git
+ [Battleship]: https://github.com/ParisRubyWorkshop/Battleship.git
 
 ## Experts
 
 ### Si vous avez déjà travaillé sur un projet Ruby/Rails en production:
- Spec This Not That : Quelles specs faire tourner sur une grosse suite de tests ?
- * [experts/spec-this-not-that-kata](https://github.com/ParisRubyWorkshop/spec-this-not-that-kata.git):__TODO__
++ [ ] Spec This Not That : Quelles specs faire tourner sur une grosse suite de tests ?
+ * [spec-this-not-that-kata](https://github.com/ParisRubyWorkshop/spec-this-not-that-kata.git):[See contrib](./katas/experts/spec-this-not-that-kata):__TODO__
     *A kata to write an Rspec version of Test This Not That https://github.com/Genki-S/ttnt*
+
 ## Others
- * [others/scrabble](https://github.com/ParisRubyWorkshop/scrabble.git):__Scrabble game on ruby__   
- * [others/robodoku](https://github.com/ParisRubyWorkshop/robodoku.git):__Un Sodoku à la sauce ruby__  
- * [others/goober](https://github.com/ParisRubyWorkshop/goober.git):__projet goober__   
- * [others/collection](https://github.com/ParisRubyWorkshop/collection.git):__comprendre les collections en prog__
+ * [ ] [scrabble](https://github.com/ParisRubyWorkshop/scrabble.git): [See contrib](./katas/others/scrabble): __Scrabble game on ruby__   
+ * [ ] [robodoku](https://github.com/ParisRubyWorkshop/robodoku.git): [See contrib](./katas/others/robodoku): __Un Sodoku à la sauce ruby__  
+ * [ ] [goober](https://github.com/ParisRubyWorkshop/goober.git): [See contrib](./katas/others/goober): __projet goober__   
+ * [ ] [collection](https://github.com/ParisRubyWorkshop/collection.git): [See contrib](./katas/others/collection): __comprendre les collections en prog__
 
 
 ## Katas
