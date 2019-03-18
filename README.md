@@ -8,7 +8,7 @@
   + [x] [Accumulate ][accumulate]: Réimplémentez léquivalent de Array#map [See contrib](./katas/debutants/ruby-accumulate):__Done__
   + [x] [Bubble Sort][bubble_sort] : Faire du tri à bulle. [See contrib](./katas/debutants/bubble_sort): _kata du bubble_sort_  __Done__
   + [x] [Bob][bob] : Pour vous familiariser avec les bases de la syntaxe, en faisant du TDD [See contrib](./katas/debutants/ruby-bob):__Done__
-  + [x] [Ruby Exercices][exercises] : Une série d’exercices sur différents aspects du langage Ruby. [See contrib](./katas/debutants/ruby-exercises):__TODO__
+  + [ ] [Ruby Exercices][exercises] : Une série d’exercices sur différents aspects du langage Ruby. [See contrib](./katas/debutants/ruby-exercises):__TODO__
   + [x] [Robot Simulator][robot-simulator] : Un petit robot qui se déplace en fonction des instructions données. [See contrib](./katas/debutants/ruby-robot-simulator):__Done__
   + [x] [RNA Transcription][rna-transcription] : Pour traduire des brins d'ADN [See contrib](./katas/debutants/ruby-rna-transcription):__Done__
   + [x] [Chiffres romains][roman-numerals] : Afficher des nombres en chiffres romains [See contrib](./katas/debutants/ruby-roman-numerals):__Done__
